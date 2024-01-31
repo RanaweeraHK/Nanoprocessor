@@ -7,17 +7,17 @@ This project is an implementation of a system combining the Slow_Clk and Nanopro
 ## Components
 The system comprises three main components:
 
-Slow_Clk: Slows down the clock speed.<br>
-Nanoprocessor: Executes assembly instructions and manages flags.<br>
-LUT_7seg: ROM module storing values for the seven-segment display.<br>
+**Slow_Clk**: Slows down the clock speed.<br>
+**Nanoprocessor**: Executes assembly instructions and manages flags.<br>
+**LUT_7seg**: ROM module storing values for the seven-segment display.<br>
 
 ## Hardware Configuration
 
-Reset Button (U18): Middle button on the board used for system reset.
-LEDs (V19, U19, E19, U16): Display the value of Reg_7_LED, with V19 representing the Most Significant Digit (MSD).
-Seven-Segment Display Ports (W7, W6, U8, V8, U5, V5, U7): Represent the seven bits of the display.
-Seven-Segment Display Anode (U2, U4, V4, W4): Anode pins for the seven-segment display.
-Flag Indicators (P1, L1): P1 for overflow and L1 for zero flags of the Nanoprocessor.
+*Reset Button (U18): Middle button on the board used for system reset.<br>
+*LEDs (V19, U19, E19, U16): Display the value of Reg_7_LED, with V19 representing the Most Significant Digit (MSD).
+*Seven-Segment Display Ports (W7, W6, U8, V8, U5, V5, U7): Represent the seven bits of the display.
+*Seven-Segment Display Anode (U2, U4, V4, W4): Anode pins for the seven-segment display.
+*Flag Indicators (P1, L1): P1 for overflow and L1 for zero flags of the Nanoprocessor.
 
 ## Assembly Program
 
@@ -42,5 +42,5 @@ JZR R0,7       ; if R0 = 0 jump to line 7
 "110000010111"  -- jzr R0,7
 
 ## How to Use
-Load the bitstream onto the board.
+Load the bitstream onto the board.<br>
 Press the reset button (U18) to initiate the sequence of displaying numbers.
