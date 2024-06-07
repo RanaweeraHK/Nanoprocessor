@@ -1,4 +1,5 @@
 ## Nanoprocessor
+![pikaso_texttoimage_Nanoprocessor](https://github.com/RanaweeraHK/Nanoprocessor/assets/129282753/f4445332-ea1e-4a1c-b223-66d807fa79c6)
 
 In the second semester of the course In21-S2-CS1050 - Computer Organization and Digital Design, we created a nanoprocessor.
 
