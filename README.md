@@ -45,3 +45,5 @@ JZR R0,7       ; if R0 = 0 jump to line 7 <br>
 ## How to Use
 Load the bitstream onto the board.<br>
 Press the reset button (U18) to initiate the sequence of displaying numbers.
+
+[Live Demostration](https://drive.google.com/file/d/1TIiEV-3udd0xTYGc6TCPPPQpdUJi8NV6/view?usp=sharing)
